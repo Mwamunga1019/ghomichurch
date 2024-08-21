@@ -353,12 +353,17 @@ strong {
 /*---------------------------------------
   NAVIGATION              
 -----------------------------------------*/
+
+.ghomi-logo {
+  max-width: 100px;
+  max-height: 100px;
+}
 .sticky-wrapper {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
-  margin-top: 51px;
+  margin-top: 10px;
 }
 
 .sticky-wrapper.is-sticky .navbar {
@@ -740,40 +745,13 @@ small {
   text-align: center;
 }
 
+.me-3 {
+  font-weight: bold;
+}
+
 /*---------------------------------------
   TICKET               
 -----------------------------------------*/
-.ticket-section {
-  background-image: url("../images/nicholas-green-unsplash-blur.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-top: 130px;
-}
-
-.ticket-form {
-  background: var(--white-color);
-  border-radius: var(--border-radius-medium);
-  padding: 50px;
-}
-
-.ticket-form .form-check {
-  position: relative;
-  min-height: 52px;
-  padding-left: 35px;
-}
-
-.ticket-form .form-check .form-check-label {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 12px;
-  margin-left: 35px;
-  width: 100%;
-  height: 100%;
-}
 
 /*---------------------------------------
   ARTISTS              
@@ -847,8 +825,8 @@ small {
   color: var(--white-color);
 }
 .schedule-section {
-  /* background-image: url("../images/nainoa-shizuru-unsplash-blur.jpg"); */
-  background-color: #d7f9ff;
+  background-image: url("../images/join-us.jpg");
+  /* background-color: #d7f9ff; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -885,7 +863,7 @@ th {
 }
 
 .schedule-table thead th {
-  background-color: var(--secondary-color);
+  background-color: rgba(79, 172, 216, 0.975);
 }
 
 .schedule-table th,
@@ -935,7 +913,7 @@ th {
 
 /* color of or in tithe or offering */
 .green_text {
-  color: #0eb520;
+  color: #4d71ef;
 }
 
 .table-background-image-wrap {
@@ -982,7 +960,7 @@ th {
 .pricing-title-wrap {
   background: var(--navbar-bg-color);
   padding: 20px 40px;
-  background-color: #0eb520;
+  background-color: #4d71ef;
 }
 
 .pricing-title {
@@ -1205,3 +1183,9 @@ th {
     font-size: 20px;
   }
 }
+
+/* @media screen and (max-width: 1421px) {
+  .navbar-brand {
+    display: none;
+  }
+} */
