@@ -818,10 +818,6 @@ small {
   margin: 1.5rem 0;
 }
 
-.mb-4 {
-  color: white;
-}
-
 /*---------------------------------------
   SCHEDULE              
 -----------------------------------------*/
@@ -913,6 +909,10 @@ th {
 
 .mb-2 {
   font-weight: bold;
+}
+
+.services-info {
+  color: black;
 }
 
 /* color of or in tithe or offering */
