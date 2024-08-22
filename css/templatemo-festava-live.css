@@ -737,6 +737,11 @@ small {
   color: black;
 }
 
+#export-love {
+  padding-left: 0;
+  color: #ffffff;
+}
+
 .ms-4 p {
   font-weight: bold;
 }
@@ -891,8 +896,16 @@ th {
   border-right-color: transparent;
 }
 
+.tojoin {
+  background-color: white;
+}
+
+#tojoin {
+  color: black;
+}
+
 .schedule-table .wed-background-image {
-  background-image: url("../images/wednesday.png");
+  background-image: url("../images/wednesservice.png");
 }
 
 .schedule-table .pop-background-image {
@@ -900,7 +913,7 @@ th {
 }
 
 .schedule-table .rock-background-image {
-  background-image: url("../images/friday.png");
+  background-image: url("../images/frikesha.png");
 }
 
 .schedule-table .country-background-image {
