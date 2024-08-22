@@ -214,6 +214,8 @@ strong {
 .section-padding {
   padding-top: 100px;
   padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .section-bg {
@@ -497,6 +499,8 @@ strong {
   padding-top: 100px;
   height: calc(100vh - 51px);
   color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .hero-section small {
@@ -615,6 +619,8 @@ small {
 .highlight {
   background-color: rgb(39, 48, 83);
   padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .highlight-thumb {
@@ -696,6 +702,8 @@ small {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .about-image {
