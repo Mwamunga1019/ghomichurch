@@ -365,7 +365,7 @@ strong {
   top: 0;
   right: 0;
   left: 0;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .sticky-wrapper.is-sticky .navbar {
@@ -399,6 +399,7 @@ strong {
   color: var(--white-color);
   font-size: var(--h5-font-size);
   font-weight: var(--font-weight-bold);
+  /* margin-top: 30px; */
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -426,9 +427,9 @@ strong {
   border: 0;
   padding: 0;
   cursor: pointer;
-  margin: 0;
-  width: 30px;
-  height: 35px;
+  margin-top: 40px;
+  width: 50px;
+  height: 50px;
   outline: none;
 }
 
@@ -762,6 +763,9 @@ small {
   font-weight: bold;
 }
 
+#font-follow {
+  font-size: 18px;
+}
 /*---------------------------------------
   TICKET               
 -----------------------------------------*/
@@ -1109,8 +1113,114 @@ th {
   RESPONSIVE STYLES               
 -----------------------------------------*/
 @media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+  .custom-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
   h1 {
-    font-size: 62px;
+    font-size: 52px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1070px) {
+  .ghomi-logo {
+    display: none;
+  }
+
+  .navbar-collapse {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .ghomi-logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .navbar-collapse {
+    margin-top: 25px;
+  }
+
+  .navbar-toggler {
+    margin-top: 15px;
+  }
+
+  .navbar-brand {
+    margin-top: 15px;
+  }
+
+  .sticky-wrapper {
+    margin-top: 0;
+  }
+
+  .navbar-brand {
+    margin-top: 25px;
+  }
+
+  .me-3 {
+    font-size: 30px;
+  }
+
+  #font-follow {
+    display: none;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 584px) and (max-width: 768px) {
+  .ghomi-logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .sticky-wrapper {
+    margin-top: 0;
+  }
+
+  .navbar-toggler {
+    margin-top: 15px;
+  }
+
+  .navbar-brand {
+    margin-top: 15px;
+  }
+
+  .me-3 {
+    font-size: 30px;
+  }
+
+  #font-follow {
+    display: none;
+  }
+
+  h1 {
+    font-size: 50px;
   }
 
   h2 {
@@ -1180,37 +1290,12 @@ th {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .custom-btn {
-    font-size: 14px;
-    padding: 10px 20px;
-  }
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 584px) {
   h1 {
-    font-size: 52px;
+    font-size: 30px;
   }
 
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
-    font-size: 26px;
-  }
-
-  h4 {
-    font-size: 22px;
-  }
-
-  h5 {
+  .custom-btn {
     font-size: 20px;
   }
 }
-
-/* @media screen and (max-width: 1421px) {
-  .navbar-brand {
-    display: none;
-  }
-} */
