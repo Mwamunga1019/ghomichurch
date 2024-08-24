@@ -375,7 +375,6 @@ strong {
 .collapse {
   /* border: 2px solid red; */
   width: auto;
-  margin-left: 5%;
 }
 
 .increase-length {
@@ -387,7 +386,7 @@ strong {
 }
 
 .navbar {
-  background: #4d71ef;
+  background: transparent;
   display: flex;
   flex-direction: column;
   z-index: 9;
@@ -1312,5 +1311,13 @@ th {
 
   .me-3 {
     font-size: 14px;
+  }
+
+  .navbar {
+    background: rgba(79, 172, 216, 0.75);
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    margin: 0;
   }
 }
