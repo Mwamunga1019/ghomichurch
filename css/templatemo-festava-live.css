@@ -365,7 +365,7 @@ strong {
   top: 0;
   right: 0;
   left: 0;
-  margin-top: 30px;
+  margin-top: 0;
 }
 
 .sticky-wrapper.is-sticky .navbar {
@@ -1112,8 +1112,6 @@ th {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
-@media screen and (max-width: 991px) {
-}
 
 @media screen and (max-width: 767px) {
   .custom-btn {
