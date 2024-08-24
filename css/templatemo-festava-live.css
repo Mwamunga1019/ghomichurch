@@ -1174,10 +1174,6 @@ th {
     margin-top: 0;
   }
 
-  .navbar-brand {
-    margin-top: 25px;
-  }
-
   .me-3 {
     font-size: 30px;
   }
@@ -1290,10 +1286,31 @@ th {
 
 @media screen and (max-width: 584px) {
   h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .custom-btn {
     font-size: 20px;
+  }
+
+  .navbar-toggler {
+    margin-top: 0;
+  }
+
+  .ghomi-logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .container {
+    padding: 0 5px;
+  }
+
+  #font-follow {
+    display: none;
+  }
+
+  .me-3 {
+    font-size: 14px;
   }
 }
