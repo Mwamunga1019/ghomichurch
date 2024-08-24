@@ -387,7 +387,7 @@ strong {
 }
 
 .navbar {
-  background: transparent;
+  background: #4d71ef;
   display: flex;
   flex-direction: column;
   z-index: 9;
