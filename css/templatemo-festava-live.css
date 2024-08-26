@@ -997,6 +997,7 @@ th {
 
 .pricing-title {
   color: var(--white-color);
+  padding-left: 0;
 }
 
 /*---------------------------------------
@@ -1021,7 +1022,7 @@ th {
 .mb-0 {
   font-size: 20px;
   font-weight: normal;
-  padding-left: 15px;
+  /* padding-left: 15px; */
   /* padding-bottom: 15px; */
   margin: 0 auto;
 }
@@ -1443,6 +1444,10 @@ th {
   td > h3,
   p {
     font-size: 14px;
+  }
+
+  .hero .arrow-icon {
+    top: 40px;
   }
 }
 
