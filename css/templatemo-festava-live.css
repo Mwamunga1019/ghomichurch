@@ -593,7 +593,6 @@ small {
   padding: 10px 20px;
 }
 
-.date-text,
 .location-text {
   display: inline-block;
   padding: 10px 20px;
@@ -1458,6 +1457,14 @@ th {
 
   .google-map {
     max-height: 200px;
+  }
+
+  #get-intouch {
+    margin-bottom: 8px;
+  }
+
+  #location-center {
+    text-align: center;
   }
 }
 
