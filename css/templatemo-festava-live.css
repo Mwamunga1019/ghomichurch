@@ -737,8 +737,8 @@ small {
   right: 0;
   left: 0;
   margin: 20px;
-  padding: 35px;
-  max-width: 600px;
+  padding: 10px;
+  max-width: 540px;
   max-height: 150px;
 }
 
@@ -1113,6 +1113,22 @@ th {
   RESPONSIVE STYLES               
 -----------------------------------------*/
 
+@media screen and (min-width: 992px) and (max-width: 1166px) {
+  .about-text-info {
+    padding-top: 15px;
+    max-height: 100px;
+  }
+
+  .ms-4 h3 {
+    font-size: 24px;
+  }
+
+  .about-text-icon {
+    height: 50px;
+    width: 50px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .custom-btn {
     font-size: 20px;
@@ -1143,8 +1159,17 @@ th {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1070px) {
+  .col-lg-6 {
+    margin: 0 auto;
+  }
+
   .ghomi-logo {
     display: none;
+  }
+
+  .about-text-info {
+    padding-top: 15px;
+    max-height: 100px;
   }
 
   .navbar-collapse {
@@ -1153,6 +1178,14 @@ th {
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .about-image {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .section-padding {
+    padding: 50px;
+  }
   .ghomi-logo {
     height: 100px;
     width: 100px;
@@ -1188,6 +1221,19 @@ th {
 }
 
 @media screen and (min-width: 584px) and (max-width: 768px) {
+  .ms-4 h3 {
+    font-size: 24px;
+  }
+
+  .about-image {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .section-padding {
+    padding: 50px;
+  }
+
   .ghomi-logo {
     height: 100px;
     width: 100px;
@@ -1285,6 +1331,16 @@ th {
 }
 
 @media screen and (max-width: 584px) {
+  .ms-4 h3 {
+    font-size: 24px;
+  }
+
+  .about-text-icon {
+    height: 35px;
+    width: 35px;
+    margin-top: 20px;
+  }
+
   h1 {
     font-size: 25px;
   }
