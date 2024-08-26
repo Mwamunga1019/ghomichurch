@@ -810,6 +810,8 @@ small {
   overflow: auto; /* Enable scroll when content overflows */
   border: 1px solid #ccc;
   padding: 10px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .artists-hover p {
@@ -1399,5 +1401,10 @@ th {
   .artists-hover {
     max-height: 150px;
     width: auto;
+    margin: 0;
   }
+}
+
+.artists-hover::-webkit-scrollbar {
+  display: none;
 }
