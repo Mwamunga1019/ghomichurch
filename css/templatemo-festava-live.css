@@ -1195,6 +1195,10 @@ th {
     width: 100px;
   }
 
+  #section_6 {
+    height: 50vh;
+  }
+
   .navbar-collapse {
     margin-top: 25px;
   }
@@ -1222,11 +1226,27 @@ th {
   h1 {
     font-size: 50px;
   }
+
+  #personal-integrity {
+    font-size: 70px;
+  }
 }
 
 @media screen and (min-width: 584px) and (max-width: 768px) {
   .ms-4 h3 {
     font-size: 24px;
+  }
+
+  #section_6 {
+    height: 40vh;
+  }
+
+  #personal-integrity {
+    font-size: 60px;
+  }
+
+  #kingdom-lead {
+    font-size: 30px;
   }
 
   .about-image {
@@ -1339,6 +1359,18 @@ th {
     display: none;
   }
 
+  #section_6 {
+    height: 30vh;
+  }
+
+  #personal-integrity {
+    font-size: 40px;
+  }
+
+  #kingdom-lead {
+    font-size: 20px;
+  }
+
   .about-image {
     margin-top: 10px;
   }
@@ -1387,7 +1419,6 @@ th {
 
   .navbar-expand-lg .navbar-nav .nav-link {
     margin: 0;
-    padding-left: ;
   }
 
   .hero-section small {
@@ -1429,6 +1460,14 @@ th {
   .section-padding {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  #personal-integrity {
+    font-size: 28px;
+  }
+
+  #kingdom-lead {
+    font-size: 14px;
   }
 }
 
