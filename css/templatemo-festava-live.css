@@ -1331,14 +1331,21 @@ th {
 }
 
 @media screen and (max-width: 584px) {
-  .ms-4 h3 {
-    font-size: 24px;
+  .about-text-info {
+    display: none;
   }
 
-  .about-text-icon {
-    height: 35px;
-    width: 35px;
-    margin-top: 20px;
+  .about-image {
+    margin-top: 10px;
+  }
+
+  .services-info h2 {
+    font-size: 28px;
+  }
+
+  .section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   h1 {
