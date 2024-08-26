@@ -1455,6 +1455,10 @@ th {
   .hero .arrow-icon {
     top: 30px;
   }
+
+  .google-map {
+    max-height: 200px;
+  }
 }
 
 @media screen and (max-width: 440px) {
