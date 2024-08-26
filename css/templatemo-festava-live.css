@@ -586,10 +586,15 @@ small {
   height: 100%;
 }
 
-.date-text,
-.location-text {
+.date-text {
   border: 1px solid var(--white-color);
   color: var(--white-color);
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.date-text,
+.location-text {
   display: inline-block;
   padding: 10px 20px;
 }
@@ -1017,6 +1022,8 @@ th {
   position: relative;
   overflow: hidden;
   top: 25%;
+  padding: 20px;
+  margin-bottom: 50px;
 }
 
 .mb-0 {
@@ -1030,7 +1037,6 @@ th {
 .mt-4 {
   font-size: 20px;
   font-weight: normal;
-  padding-left: 15px;
 }
 
 .venue-info-title,
@@ -1472,6 +1478,18 @@ th {
   }
 
   #kingdom-lead {
+    font-size: 14px;
+  }
+
+  .venue-thumb h5 {
+    font-size: 14px;
+  }
+
+  .venue-info-title h2 {
+    font-size: 14px;
+  }
+
+  #all-rights {
     font-size: 14px;
   }
 }
