@@ -739,6 +739,7 @@ small {
   margin: 20px;
   padding: 35px;
   max-width: 600px;
+  max-height: 150px;
 }
 
 .mb-0 {
@@ -1114,7 +1115,7 @@ th {
 
 @media screen and (max-width: 767px) {
   .custom-btn {
-    font-size: 14px;
+    font-size: 20px;
     padding: 10px 20px;
   }
 }
@@ -1319,5 +1320,10 @@ th {
 
   .navbar-expand-lg .navbar-nav .nav-link {
     margin: 0;
+  }
+
+  .hero-section small {
+    text-transform: none;
+    font-size: 20px;
   }
 }
