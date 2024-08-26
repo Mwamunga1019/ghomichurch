@@ -889,7 +889,7 @@ th {
 .schedule-table tr,
 .schedule-table td {
   border-bottom-color: #363a3e;
-  padding: 30px;
+  padding: 10px;
 }
 
 .schedule-table tr:last-child th,
@@ -1355,7 +1355,7 @@ th {
   }
 
   .custom-btn {
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .navbar-toggler {
@@ -1390,6 +1390,25 @@ th {
   .hero-section small {
     text-transform: none;
     font-size: 20px;
+  }
+
+  .services-info p {
+    font-size: 14px;
+  }
+
+  .schedule-table th,
+  .schedule-table tr,
+  .schedule-table td {
+    padding: 5px;
+  }
+
+  .table-responsive {
+    font-size: 14px;
+  }
+
+  td > h3,
+  p {
+    font-size: 14px;
   }
 }
 
