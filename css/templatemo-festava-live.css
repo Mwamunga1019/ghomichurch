@@ -1410,6 +1410,10 @@ th {
   p {
     font-size: 14px;
   }
+
+  ul li {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 440px) {
