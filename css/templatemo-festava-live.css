@@ -373,7 +373,6 @@ strong {
 }
 
 .collapse {
-  /* border: 2px solid red; */
   width: auto;
 }
 
@@ -390,7 +389,6 @@ strong {
   display: flex;
   flex-direction: column;
   z-index: 9;
-  /* border: 2px solid red; */
 }
 
 .navbar-brand,
@@ -398,7 +396,6 @@ strong {
   color: var(--white-color);
   font-size: var(--h5-font-size);
   font-weight: var(--font-weight-bold);
-  /* margin-top: 30px; */
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -810,9 +807,9 @@ small {
   right: 0;
   left: 0;
   opacity: 0;
-  max-width: 500px; /* Set a width */
-  max-height: 300px; /* Set a height */
-  overflow: auto; /* Enable scroll when content overflows */
+  max-width: 500px;
+  max-height: 300px;
+  overflow: auto;
   border: 1px solid #ccc;
   padding: 10px;
   -ms-overflow-style: none; /* IE and Edge */
@@ -850,7 +847,6 @@ small {
 }
 .schedule-section {
   background-image: url("../images/join-us.jpg");
-  /* background-color: #d7f9ff; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1028,8 +1024,6 @@ th {
 .mb-0 {
   font-size: 20px;
   font-weight: normal;
-  /* padding-left: 15px; */
-  /* padding-bottom: 15px; */
   margin: 0 auto;
 }
 
